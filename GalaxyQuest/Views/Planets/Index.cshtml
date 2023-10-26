@@ -1,0 +1,35 @@
+﻿@model List<Planet>
+
+<h2>Far Far Away Galaxy Planets</h2>
+
+The planets of the star wars galaxy should be here!
+
+<h2>Milky Way Planets</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Notable Residents</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var planet in Model)
+        {
+            <tr>
+                <td>@planet.Name</td>
+                <td>
+                    <ul>
+                        @foreach (var resident in planet.NotableResidents)
+                        {  
+                            <li>@resident</li>
+                        }
+                    </ul>
+                </td>
+            </tr>  
+        }
+    </tbody>
+</table>
+
+
+
