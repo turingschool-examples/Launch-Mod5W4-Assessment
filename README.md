@@ -26,5 +26,5 @@ When finished, create a PR and include your answers to the reflection questions 
 
 ## Rubric
 
-This assessment has a total of 16 points.  Earning 12 or more points is a pass.
+This assessment has a total of 16 points.  Earning 10 or more points is a pass.
 
