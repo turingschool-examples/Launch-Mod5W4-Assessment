@@ -30,9 +30,9 @@ When finished, create a PR and include your answers to the reflection questions 
 This assessment has a total of 16 points.  Earning 10 or more points is a pass.
 
 For the technical challenge, we are looking for:
-2 Points - successful creation of a HTTPClient
-2 Points - correct URL configuration
-1 point - making a get request
-2 points - turning the response into a list of planets
-3 points - getting the requested planets showing up on a page
+* 2 Points - successful creation of a HTTPClient
+* 2 Points - correct URL configuration
+* 1 point - making a get request
+* 2 points - turning the response into a list of planets
+* 3 points - getting the requested planets showing up on a page
 
