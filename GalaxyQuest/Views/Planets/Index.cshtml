@@ -10,7 +10,7 @@ The planets of the star wars galaxy should be here!
     <thead>
         <tr>
             <th scope="col">Name</th>
-            <th scope="col">Notable Residents</th>
+            <th scope="col">Population</th>
         </tr>
     </thead>
     <tbody>
@@ -18,14 +18,7 @@ The planets of the star wars galaxy should be here!
         {
             <tr>
                 <td>@planet.Name</td>
-                <td>
-                    <ul>
-                        @foreach (var resident in planet.NotableResidents)
-                        {  
-                            <li>@resident</li>
-                        }
-                    </ul>
-                </td>
+                <td>@planet.Population</td>
             </tr>  
         }
     </tbody>

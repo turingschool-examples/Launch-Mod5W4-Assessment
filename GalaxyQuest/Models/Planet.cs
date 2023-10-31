@@ -3,6 +3,6 @@
     public class Planet
     {
         public string Name { get; set; }
-        public List<string> NotableResidents { get; set; } = new List<string>();
+        public long Population { get; set; }
     }
 }
