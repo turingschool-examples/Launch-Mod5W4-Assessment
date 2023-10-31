@@ -9,11 +9,12 @@ In this week's assessment, imagine you have been scheduled for a half-day interv
 * Click on 'Planets' in the navbar and make sure you see the 8 planets of our solar system.
 * Checkout a new branch and complete the following task.
 
-Your task is to add the explored planets of the galaxy 'Far Far Away'.
+Your task is to add the explored planets of the galaxy 'Far Far Away' (all of the planets in the star wars films, as outlined in the SWAPI API).
 
 We would like you to get the necessary data by consuming the [SWAPI](https://swapi.dev/) API.  A successful mission will:
 * Use HttpClient to make an API call to SWAPI when a request comes in (to get the most up-to-date information!)
-* Display the known planets of the Far Far Away Galaxy on a view
+* Display the known planets of the Far Far Away Galaxy on a view.
+  * Be sure to include the name and population of each planet.
 
 Outside of those requirements, you may choose to add any additional functionality!
 
